@@ -1,5 +1,7 @@
 ## Data Science and Machine Learning Portfolio
 ### Z1_California_Housing_Prices.ipynb
+***Dataset***: California housing data from the 1990 census<br>
+***Dataset Features***: Longitude, Latitude, Housing median age, Total rooms, Total bedrooms, Population, Households, Median income, Ocean proximity, Median house value
 1) Inspect existing features, visualization (categorical / geographic)
 2) Feature engineering, data cleaning, handling text and categorical
 3) Build custom transformer
@@ -10,6 +12,8 @@
 6) Hyperparameter tuning (grid search and randomized search with cross-validation) 
 
 ### Z2_MNIST.ipynb
+***Dataset***: MNIST handwritten single digits between 0 and 9<br>
+***Dataset Features***: 28×28 pixel grayscale images
 1) Inspect existing features, visualization
 2) Exploring different models for binary and multi-class classfication
    - SGD Classifier
@@ -40,6 +44,8 @@
    - TSNE (t-distributed Stochastic Neighbor Embedding)
 
 ### Z2_Spam_and_Ham.ipynb
+***Dataset***: Apache SpamAssassin public dataset of spam and non-spam emails<br>
+***Dataset Features***: HTML and text content of email messages
 1) Parsing email with email (parser, policy) Python package and string manipulation
 2) Functions to get and count email structures
 3) Regular expressions to remove HTML tags and convert to plain text
@@ -54,6 +60,8 @@
    - Precision-Recall curve
 
 ### Z2_Titanic.ipynb
+***Dataset***: Passenger information and survival status on the Titanic<br>
+***Dataset Features***: Ticket class, Sex, Age in years, Number of siblings/spouses, Number of parents/children, Ticket number, Passenger fare, Cabin number, Port of embarkation, Survival status
 1) Inspect existing features, visualization (numerical, categorical)
    - Pie chart
    - Bar chart
@@ -81,6 +89,8 @@
 7) Compare feature importances for different models
 
 ### Z9_Olivetti.ipynb
+***Dataset***: A set of face images taken between April 1992 and April 1994 at AT&T Laboratories Cambridge<br>
+***Dataset Features***: 64×64 pixel grayscale images
 1) Inspect existing features, visualization (numerical)
 2) Stratify training, test and validation set due to unbalanced dataset
 3) Using dimensionality reduction to reduce feature size and training time
