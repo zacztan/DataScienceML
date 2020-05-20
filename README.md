@@ -1,4 +1,42 @@
 ## Data Science and Machine Learning Portfolio
+
+### Z1_Articles_Detecting_Restricted_Content.ipynb
+***Dataset***: Collection of news articles titles<br>
+***Dataset Features***: Time created, Date created, Number of upvotes, Number of downvotes, Article title, Article author, Article Category, Restricted Content (Over 18) flag
+1) Inspect existing features, visualization (categorical, date/time, numerical, textual)
+   - punctuations in title
+   - stopwords in title
+   - length of title
+   - number of words in title
+   - average length of words in title
+2) Preprocessing title column
+   - remove URLs
+   - remove HTML tags
+   - remove emojis
+   - add space around punctuations prior to removing punctuations and tokenization
+   - remove punctuations
+   - correct spelling of words
+   - tokenization
+   - remove stop words
+   - stemming with PorterStemmer
+   - lemmatization with WordNetLemmatizer
+   - Imbalanced dataset: Undersample majority class for training / test set
+   - Visualization of most common words with WordCloud
+3) Feature generation and evaluate model metrics
+   - Bag of Words (BoW) by manual counting
+   - Bag of Words (BoW) with CountVectorizer
+   - Term Frequency - Inverse Document Frequency (Tf-idf) with TfidfTransformer
+   - Term Frequency - Inverse Document Frequency (Tf-idf) with TfidfVectorizer
+   - Classification model evaluation (accuracy, precision, recall, confusion_matrix, roc_auc_score)
+   - Analyzing titles which were false positives and false negatives
+4) Word Embedding with Word2Vec
+   - Continuous Bag of Words (CBOW)
+   - Skip-Gram
+5) Topic Modeling
+   - Latent Semantic Analysis (LSA)
+   - Latent Dirichlet Allocation (LDA)
+   - Visualization of topic clusters with Uniform Manifold Approximation and Projection (UMAP)
+
 ### Z1_California_Housing_Prices.ipynb
 ***Dataset***: California housing data from the 1990 census<br>
 ***Dataset Features***: Longitude, Latitude, Housing median age, Total rooms, Total bedrooms, Population, Households, Median income, Ocean proximity, Median house value
