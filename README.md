@@ -25,7 +25,7 @@
 3) Feature generation and evaluate model metrics
    - Bag of Words (BoW) by manual counting
    - Bag of Words (BoW) with CountVectorizer
-   - Term Frequency - Inverse Document Frequency (Tf-idf) with TfidfTransformer
+   - Term Frequency - Inverse Document Frequency (Tf-idf) with BoW + TfidfTransformer
    - Term Frequency - Inverse Document Frequency (Tf-idf) with TfidfVectorizer
    - Classification model evaluation (accuracy, precision, recall, confusion_matrix, roc_auc_score)
    - Analyzing titles which were false positives and false negatives
