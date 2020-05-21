@@ -56,7 +56,7 @@
 2) Exploring different models for binary and multi-class classfication
    - SGD Classifier
    - Random Forest Classifier
-   - One Vs One Classifier(OVO)
+   - One Vs One Classifier (OVO)
 3) Classification metrics 
    - Accuracy
    - Confusion matrix
