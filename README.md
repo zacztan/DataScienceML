@@ -79,7 +79,7 @@
 8) Using dimensionality reduction to reduce training time
    - Principal Component Analysis (PCA)
 9) Visualizing high-dimensional data
-   - TSNE (t-distributed Stochastic Neighbor Embedding)
+   - t-distributed Stochastic Neighbor Embedding (TSNE)
 
 ### Z2_Spam_and_Ham.ipynb
 ***Dataset***: Apache SpamAssassin public dataset of spam and non-spam emails<br>
