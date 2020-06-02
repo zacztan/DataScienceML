@@ -36,6 +36,11 @@
      - evening / night rush hour (5pm - 7pm)
      - midnight (11pm - 1am)
      - non-peak hours (1am - 7am)
+5) Anomaly / Outlier Detection of Sensor Data
+   - Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
+   - Quadrant count information
+   - Hough Line Transform (Standard)
+   - Hough Line Transform (Progressive Probabilistic)
 
 ### Z1_Articles_Detecting_Restricted_Content.ipynb
 ***Dataset***: Collection of news articles titles<br>
