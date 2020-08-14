@@ -1,47 +1,5 @@
 ## Data Science and Machine Learning Portfolio
 
-### Z1_Analysis_of_Camera-Based_Sensor_Data.ipynb
-***Dataset***: Sensor observations of a city street (East Coast) on May 3rd 2020<br>
-***Dataset Features***: Object unique ID, Date of observation, Time of observation, Object type, Object coordinates (square box), Object coordinates (bottom center point), Object Longitude and latitude (bottom center point)
-1) Exploratory data analysis - inspect existing features
-   - update object unique ID to a shortened version for easier analysis
-   - combine date and time
-   - split points and coordinates
-2) Feature engineering
-   - horizontal direction indicator for each object's overall trajectory (left-to-right or right-to-left)
-   - real-time horizontal direction indicator for each object's individual observations
-   - distance traveled per observation and cumulative distance traveled indicator
-   - time delta per observation and cumulative time delta indicator
-   - moving average for speed of object throughout observations indicator
-   - current object trajectory in degrees indicator
-   - real-time quadrant (40x40 pixels) information for each object
-3) Data Analysis
-   - What is the busiest time of the day?
-   - What time during the day had the most object types (pedestrians, bicycles, trucks)?
-   - How many unique objects from each object type were detected for the day?
-   - How were pedestrian, bicycle and truck traffic distributed throughout the day?
-   - What is the average number of observations captured by the sensor for each object type?
-   - What is the average time (s), distance traveled (m) and speed (m/s) for each object type?
-   - What is the most common direction of motion (left to right or right to left) for each object type? 
-   - What is the average time between sensor observations for objects in each class type?
-4) Visualization of Sensor Data
-   - path taken by an individual object
-   - paths taken by specific object type (pedestrians, bicycles or trucks) 
-     - both directions 
-     - left-to-right direction
-     - right-to-left direction
-     - irregular paths (anomalies / outliers)
-   - visualize activity based on time interval
-     - afternoon rush hour (11am - 1pm)
-     - evening / night rush hour (5pm - 7pm)
-     - midnight (11pm - 1am)
-     - non-peak hours (1am - 7am)
-5) Anomaly / Outlier Detection of Sensor Data
-   - Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
-   - Quadrant count information
-   - Standard Hough Line Transform (OpenCV)
-   - Progressive Probabilistic Hough Line Transform (OpenCV)
-
 ### Z1_Articles_Detecting_Restricted_Content.ipynb
 ***Dataset***: Collection of news articles titles<br>
 ***Dataset Features***: Time created, Date created, Number of upvotes, Number of downvotes, Article title, Article author, Article Category, Restricted Content (Over 18) flag
